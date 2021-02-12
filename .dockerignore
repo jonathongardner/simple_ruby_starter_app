@@ -1,0 +1,7 @@
+README.md
+.ruby-version
+.ruby-gemset
+.byebug-history
+log/*
+docker-compose.yml
+Dockerfile
