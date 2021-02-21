@@ -5,7 +5,7 @@ module AppLogger
   def self.logger
     return @logger if @logger
 
-    @logger = Logger.new(App.file("log/#{ENV['ENV']}.log"))
+    @logger = Logger.new(App.file('log', "#{ENV['ENV']}.log"))
     # print to stout and file
     @logger.formatter = proc do |severity, datetime, progname, msg|
       date_format = datetime.strftime("%Y-%m-%d %H:%M:%S")

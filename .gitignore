@@ -1,6 +1,8 @@
 !.ruby-gemset
 /log/*
 !/log/.keep
+/db/*
+!/db/.keep
 .env_overrides.rb
 .docker-env
 .byebug-history
