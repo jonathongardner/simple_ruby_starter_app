@@ -1,6 +1,9 @@
-!.ruby-gemset
 /log/*
 !/log/.keep
+/tmp/*
+!/tmp/.keep
 .env_overrides.rb
 .docker-env
 .byebug-history
+.ruby-gemset
+.ruby-version
