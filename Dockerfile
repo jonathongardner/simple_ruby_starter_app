@@ -1,4 +1,4 @@
-FROM ruby:2.5.1-alpine
+FROM ruby:3.1-alpine
 
 RUN apk update && apk upgrade && \
     apk add --no-cache \
@@ -20,4 +20,4 @@ RUN bundle install
 
 COPY . .
 
-CMD ["ruby", "/usr/src/app/app.rb"]
+CMD ["ruby", "/usr/src/app/console"]
