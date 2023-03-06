@@ -3,6 +3,6 @@ development:
     default:
       database: development
       hosts:
-        - db:27017
+        - mongo.devrepl:27017
       options:
         server_selection_timeout: 1
